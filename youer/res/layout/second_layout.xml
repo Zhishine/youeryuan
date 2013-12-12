@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" 
+    android:background="@drawable/bg"
+    android:id="@+id/root"
+    >
+  <RelativeLayout android:id="@+id/top_bg"
+       android:background="@drawable/top_bar_bg" 
+       android:layout_width="match_parent"
+       android:layout_height="54dp"
+       >
+     
+      <TextView android:id="@+id/titile_txt"
+          android:layout_width="wrap_content"
+          android:layout_height="wrap_content"
+          android:layout_centerHorizontal="true"
+          android:layout_centerVertical="true"
+          android:text="@string/message"
+          android:layout_marginRight="10dp"
+          android:textSize="20sp"
+          android:textColor="@android:color/white"
+          />
+       
+      <ImageView android:id="@+id/contact"
+          android:layout_width="54dp"
+          android:layout_height="54dp"
+          android:src="@drawable/contact"
+          android:layout_alignParentRight="true"/>
+  </RelativeLayout>  
+ <ListView android:id="@+id/list"
+        android:layout_margin="10dp"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent" 
+        android:divider="#00000000"
+        android:fadingEdge="none"
+        android:dividerHeight="10dp"
+        android:scrollingCache="false"/>
+   
+</LinearLayout>

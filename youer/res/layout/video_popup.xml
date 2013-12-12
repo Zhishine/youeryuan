@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+ 
+    android:id="@+id/root"
+   
+    >
+
+  <RelativeLayout android:id="@+id/top_bg"
+       android:layout_width="match_parent"
+       android:layout_height="54dp"
+       android:layout_gravity="top"
+       android:layout_marginTop="0dp"
+       >
+       <ImageView android:id="@+id/back" 
+           android:layout_width="54dp" 
+           android:layout_height="54dp"
+           android:layout_alignParentTop="true"
+           android:layout_alignParentLeft="true"
+           android:background="@drawable/back1"/>
+
+  <ImageView android:id="@+id/expand" 
+           android:layout_width="54dp" 
+           android:layout_height="54dp"
+          
+           android:layout_alignParentTop="true"
+           android:layout_alignParentRight="true"
+           android:background="@drawable/expand2"/>
+  </RelativeLayout>  
+ <LinearLayout
+      android:id="@+id/video_container"
+       android:layout_width="match_parent"
+       android:layout_height="match_parent"
+       android:orientation="vertical"
+       android:clickable="true"
+
+       android:layout_gravity="top|center"
+       android:background="@android:color/white"
+       >
+       <com.youer.view.FullScreenVideoView 
+            android:id="@+id/video" 
+           android:layout_width="match_parent"
+           android:layout_height="match_parent"/>
+ </LinearLayout>
+ 
+  
+
+<LinearLayout android:id="@+id/popup"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+<LinearLayout 
+   
+    android:layout_width="198dp"
+    android:layout_height="87dp"
+    android:orientation="vertical" 
+    android:background="@drawable/gallery_qs_bg"
+    android:layout_marginTop="57dp"
+    android:layout_marginRight="5dp"
+    android:layout_gravity="right"
+    >
+
+</LinearLayout>
+
+</LinearLayout>
+</FrameLayout>

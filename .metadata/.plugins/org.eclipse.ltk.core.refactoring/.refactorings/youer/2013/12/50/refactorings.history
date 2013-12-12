@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Copy element &apos;baba1.jpg&apos; to &apos;raw&apos;&#x0D;&#x0A;- Original project: &apos;youer&apos;&#x0D;&#x0A;- Destination element: &apos;raw&apos;&#x0D;&#x0A;- Original element: &apos;baba1.jpg&apos;" description="Copy file" element1="res/drawable-xhdpi/baba1.jpg" files="1" flags="589830" folders="0" id="org.eclipse.jdt.ui.copy" policy="org.eclipse.jdt.ui.copyResources" stamp="1386832180333" target="/youer/res/raw" units="0" version="1.0"/>
+</session>
